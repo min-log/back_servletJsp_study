@@ -47,8 +47,9 @@ function elementCheck(formName){
 	     paramIndex++; 
       }
    }
+ 
    formName.action = "fileInfoView.jsp";
-   formName.submit();
+   formName.submit();  
 }
 </script>
 </head>

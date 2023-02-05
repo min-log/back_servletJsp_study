@@ -1,12 +1,11 @@
 <%@page contentType="text/html; charset=UTF-8" %>
-<%@page import="com.oreilly.servlet.MultipartRequest,
-                com.oreilly.servlet.multipart.DefaultFileRenamePolicy,
-                java.util.*,
-                java.io.*"								   
-%>
+<%@page import="com.oreilly.servlet.MultipartRequest" %>
+<%@page import="com.oreilly.servlet.multipart.DefaultFileRenamePolicy"%>
+<%@page import="java.util.*,java.io.*"%>
+
 <%
 		//String saveFolder = "C:/Jsp/myapp/WebContent/ch13/filestorage/";
-    String saveFolder = "/Users/jeongjonguk/eclipse-workspace/myapp/WebContent/ch13/filestorage"; 
+    String saveFolder = "C:/java_work/java_fast/ko_ServleJsp/WebContent/source/ch13/filestorage"; 
 		String encType = "UTF-8";
 		int maxSize = 10*1024*1024;//10M
 		
@@ -58,7 +57,7 @@
 <%for(int i=0; i<saveFiles.size();i++){%>
 <tr bgcolor="#FFCC00">
 	<td colspan="4">
-	<a href="<%="./filestorage/"+saveFiles.get(i)%>"><strong><%=origFiles.get(i)%></strong></a>
+	<a href="<%="filestorage/"+saveFiles.get(i)%>"><strong><%=origFiles.get(i)%></strong></a>
 	</td>
 </tr>
 <%}%>
