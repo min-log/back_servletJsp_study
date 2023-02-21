@@ -34,20 +34,20 @@
 								<td colspan="3"><font color="#FFFFFF"><b>회원 가입</b></font></td>
 							</tr>
 							<tr>
-								<td width="20%">아이디</td>
+								<td width="20%"><lable for="">아이디</lable></td>
 								<td width="50%"><input name="id" size="15"
-									value=""> <input type="button" value="ID중복확인"
+									value=""><input type="button" value="ID중복확인"
 									onClick="idCheck(this.form.id.value)"></td>
 								<td width="30%">아이디를 적어 주세요.</td>
 							</tr>
 							<tr>
-								<td>패스워드</td>
-								<td><input type="password" name="pwd" size="15" value=""></td>
+								<td><lable for="pw">패스워드</lable></td>
+								<td><input type="password" name="pw" id="pw" size="15" value=""></td>
 								<td>패스워드를 적어주세요.</td>
 							</tr>
 							<tr>
-								<td>패스워드 확인</td>
-								<td><input type="password" name="repwd" size="15" value=""></td>
+								<td><lable for="repwd">패스워드 확인</lable></td>
+								<td><input type="password" name="repwd" id="repwd" size="15" value=""></td>
 								<td>패스워드를 확인합니다.</td>
 							</tr>
 							<tr>

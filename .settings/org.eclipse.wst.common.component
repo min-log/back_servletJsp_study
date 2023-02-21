@@ -1,8 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?><project-modules id="moduleCoreId" project-version="1.5.0">
+        
     <wb-module deploy-name="ko_ServleJsp">
+                
         <wb-resource deploy-path="/" source-path="/WebContent" tag="defaultRootSource"/>
+                
         <wb-resource deploy-path="/WEB-INF/classes" source-path="/src"/>
+                
         <property name="context-root" value="ko_ServleJsp"/>
+                
         <property name="java-output-path" value="/ko_ServleJsp/build/classes"/>
+            
     </wb-module>
+    
 </project-modules>

@@ -5,7 +5,7 @@
 <%	
 	  request.setCharacterEncoding("UTF-8");
 	  
-    int totalRecord=0; //전체레코드수
+  	  int totalRecord=0; //전체레코드수
 	  int numPerPage=10; // 페이지당 레코드 수 
 	  int pagePerBlock=15; //블럭당 페이지수 
 	  
