@@ -1,0 +1,5 @@
+@charset "UTF-8";
+* {padding:0;margin:0;}
+.email_list {border-spacing: 0;width:100%;}
+.email_list tr td ,
+.email_list tr th {border-top: 1px solid #ccc}

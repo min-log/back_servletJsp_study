@@ -1,0 +1,21 @@
+@charset "UTF-8";
+
+body,* {margin:0;padding:0;font-size:12px}
+
+table {width:100%}
+table,
+table td,
+table th {border-spacing: 0px;padding:0;margin:0;border:0;}
+.author_wrap {margin:50px auto 0;width:90%;}
+.author_top {padding:10px;border:1px solid #ddd;border-radius:5px;width:80%;margin: 0 auto;    text-align: center;background:#eee;}
+.author_top form {display:inline-block;text-align: center;}
+.author_list {margin-top:10px;}
+.author_list th {background:#eee;border-top:1px solid #ddd;border-bottom:1px solid #ddd;padding:10px;}
+.author_list td {border-bottom:1px solid #ddd;padding:5px;text-align:center;}
+input[type="submit"],
+button {background:#8d8c8c;border:0;padding:5px 10px;color:#fff;}
+input[type="text"] {height: 30px;width:120px;border:1px solid #ddd;}
+input[name="author_id"] {border:0;background:#eee}
+
+input[type="radio"] {border:1px solid #ddd;width:20px;height:20px; -webkit-appearance: none;-moz-appearance: none;border-radius:3px;}
+input[type="radio"]:checked {background:#79b8f3}
