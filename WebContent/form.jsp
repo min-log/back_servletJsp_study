@@ -4,7 +4,7 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>form update</title>
+<title>form update!</title>
 </head>
 <body>
 	<form method="get" action="insert.jsp">
